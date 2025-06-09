@@ -1,0 +1,61 @@
+[
+    {
+      "id": "home",
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "id": "about",
+      "title": "About Us",
+      "link": "/about"
+    },
+    {
+      "id": "services",
+      "title": "Services",
+      "link": "/services",
+      "submenu": [
+        {
+          "id": "weddings",
+          "title": "Weddings",
+          "link": "/services/weddings"
+        },
+        {
+          "id": "corporate-events",
+          "title": "Corporate Events",
+          "link": "/services/corporate-events"
+        },
+        {
+          "id": "social-gatherings",
+          "title": "Social Gatherings",
+          "link": "/services/social-gatherings"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "title": "Gallery",
+      "link": "/gallery"
+    },
+    {
+      "id": "contact",
+      "title": "Contact Us",
+      "link": "/contact"
+    },
+    {
+      "id": "blog",
+      "title": "Blog",
+      "link": "/blog",
+      "submenu": [
+        {
+          "id": "articles",
+          "title": "Articles",
+          "link": "/blog/articles"
+        },
+        {
+          "id": "news",
+          "title": "News",
+          "link": "/blog/news"
+        }
+      ]
+    }
+  ]
