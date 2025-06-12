@@ -5,6 +5,7 @@ import Introduction from "../app/components/sections/Introduction";
 import ServicesOverview from "../app/components/sections/ServicesOverview";
 import WhyChooseUs from "./components/sections/WhyChooseUs";
 import UpcomingEvents from "./components/sections/UpcomingEvents";
+import ScrollFadeIn from './components/animations/ScrollFadeIn';
 export default function Home() {
   return (
     <div>
@@ -23,13 +24,16 @@ export default function Home() {
 
       <main className="flex min-h-screen flex-col items-center justify-between">
         <Hero />
-
+        <ScrollFadeIn>
         <Introduction eventCenterName="Capitol City Hall" />
+        </ScrollFadeIn>
+        <ScrollFadeIn>
         <ServicesOverview />
-        <WhyChooseUs />
+        </ScrollFadeIn>
+       <ScrollFadeIn><WhyChooseUs /></ScrollFadeIn> 
         {/* ... more content */}
 
-        <UpcomingEvents/>
+        <ScrollFadeIn> <UpcomingEvents/></ScrollFadeIn> 
       </main>
 
       <footer className="bg-gray-800 text-white text-center p-4">
