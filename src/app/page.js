@@ -24,16 +24,15 @@ export default function Home() {
 
       <main className="flex min-h-screen flex-col items-center justify-between">
         <Hero />
-        <ScrollFadeIn>
+       
         <Introduction eventCenterName="Capitol City Hall" />
-        </ScrollFadeIn>
-        <ScrollFadeIn>
+        
         <ServicesOverview />
-        </ScrollFadeIn>
-       <ScrollFadeIn><WhyChooseUs /></ScrollFadeIn> 
+       
+     <WhyChooseUs />
         {/* ... more content */}
 
-        <ScrollFadeIn> <UpcomingEvents/></ScrollFadeIn> 
+        <UpcomingEvents/>
       </main>
 
       <footer className="bg-gray-800 text-white text-center p-4">
