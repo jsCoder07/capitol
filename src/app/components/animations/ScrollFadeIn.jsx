@@ -67,7 +67,7 @@ const x = useTransform(scrollYProgress, [0, 0.5, 0.8, 1], [-100, 0, 0, -100]); /
   return (
     <motion.div
       ref={ref}
-      style={{ opacity ,x}} // Applying both opacity and y-axis transformation
+      style={{ opacity ,y}} // Applying both opacity and y-axis transformation
     >
       {children}
     </motion.div>
