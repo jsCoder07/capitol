@@ -29,7 +29,7 @@ const page = () => {
         >
           <div className="bg-black bg-opacity-50 p-8 rounded-lg">
             <h1 className="font-playfair text-4xl md:text-6xl ">
-              About Capitol city hall Event Center
+              About Capitol City Hall Event Center
             </h1>
             <p className="mt-4 text-lg md:text-xl">
               Your perfect venue for unforgettable events.
@@ -50,7 +50,7 @@ const page = () => {
           <div>
             <div className="mb-16">
             <h2 className="font-playfair text-3xl  mb-4">
-              About Us – Capitol city hall Event Center
+              About Us – Capitol City Hall Event Center
             </h2>
             <p className="font-lato text-gray-700 leading-relaxed">
               Welcome to Capitol city hall Event Center, the perfect destination for
@@ -158,3 +158,4 @@ const page = () => {
 };
 
 export default page;
+
