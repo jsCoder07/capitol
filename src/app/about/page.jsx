@@ -5,6 +5,7 @@ import { FaSnowflake, FaCarAlt, FaTheaterMasks } from "react-icons/fa";
 import { ImPower } from "react-icons/im";
 import { PiSecurityCameraBold } from "react-icons/pi";
 import { AiOutlineSound } from "react-icons/ai";
+import UpcomingEvents from "../components/sections/UpcomingEvents";
 const page = () => {
   return (
     <div>
@@ -148,6 +149,10 @@ const page = () => {
           </button>
         </section>
       </div>
+      <UpcomingEvents/>
+       <footer className="bg-gray-800 text-white text-center p-4">
+        &copy; 2025 Capitol City Hall Nigeria. All rights reserved.
+      </footer>
     </div>
   );
 };
