@@ -35,7 +35,8 @@ export default function Home() {
         
         {/* ... more content */}
 
-        <ScrollFadeIn> <UpcomingEvents/></ScrollFadeIn> 
+        <ScrollFadeIn> </ScrollFadeIn> 
+        <UpcomingEvents/>
       </main>
 
       <footer className="bg-gray-800 text-white text-center p-4">
