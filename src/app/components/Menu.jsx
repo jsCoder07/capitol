@@ -16,7 +16,7 @@ const Menu = () => {
     <nav className="bg-white-800 p-4 relative z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div>
-            <Image src={"/images/logo.png"} width={70} height={70}></Image></div>
+            <Image src={"/images/logo.png"} width={70} height={70} alt='Logo'></Image></div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
@@ -26,7 +26,7 @@ const Menu = () => {
         </ul>
 
         {/* Mobile Menu Button */}
-        <button className="md:hidden text-white focus:outline-none" onClick={toggleMenu}>
+        <button className="md:hidden text-gray-900 focus:outline-none" onClick={toggleMenu}>
           <svg
             className="w-8 h-8"
             fill="none"
@@ -51,7 +51,7 @@ const Menu = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden absolute top-full left-0 w-full bg-gray-700 py-4 shadow-lg"
+            className="md:hidden absolute top-full left-0 w-full bg-gray-700 py-4 shadow-lg text-white"
           >
             <ul className="flex flex-col items-center space-y-4">
               {menuData.map((item) => (

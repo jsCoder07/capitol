@@ -70,7 +70,7 @@ const UpcomingEvents = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto text-center mb-10 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
           Upcoming Events
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -119,7 +119,7 @@ const UpcomingEvents = () => {
                   />
                 </div>
                 <div className="p-5 flex flex-col flex-grow">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2 font-playfair">
                     {event.name}
                   </h3>
                   <p className="text-sm text-gray-500 mb-1">{event.date} - {event.time}</p>

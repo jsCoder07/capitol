@@ -47,7 +47,7 @@ const ServicesOverview = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
           Our Key Services & Event Types
         </h2>
         <p className="text-lg text-gray-600">
@@ -70,7 +70,7 @@ const ServicesOverview = () => {
               />
             </div>
             <div className="p-6 text-center">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2 font-playfair">
                 {service.title}
               </h3>
               {service.description && (

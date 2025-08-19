@@ -63,7 +63,7 @@ const Hero = () => {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
               />
               <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center p-4">
-                <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
+                <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
                   {image.caption}
                 </h1>
                 <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl drop-shadow">

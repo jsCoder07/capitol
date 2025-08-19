@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'OakesBold';
+    src: url('/fonts/Oakes-Grotesk-Bold') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesItalic';
+    src: url('/fonts/Oakes-Grotesk-Bold-Italic') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesLight';
+    src: url('/fonts/Oakes-Grotesk-Light') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesLighItalic';
+    src: url('/fonts/Oakes-Grotesk-Light-Italic') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesMedium';
+    src: url('/fonts/Oakes-Grotesk-Medium') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesMediumItalic';
+    src: url('/fonts/Oakes-Grotesk-Medium-Italic') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesRegular';
+    src: url('/fonts/Oakes-Grotesk-Regular') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesRegularItalic';
+    src: url('/fonts/Oakes-Grotesk-Regular-Italic') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesSemiBold';
+    src: url('/fonts/Oakes-Grotesk-SemiBold') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'OakesSemiBoldItalic';
+    src: url('/fonts/Oakes-Grotesk-SemiBold-Italic') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+

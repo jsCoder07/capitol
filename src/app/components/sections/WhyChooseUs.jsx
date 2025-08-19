@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
           Why Choose Us?
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
             className="bg-white rounded-lg shadow-md p-8 text-center flex flex-col items-center hover:shadow-lg transition duration-300"
           >
             {benefit.icon}
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">
+            <h3 className="text-xl font-semibold text-gray-800 mb-3 font-playfair">
               {benefit.title}
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed">

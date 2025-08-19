@@ -4,7 +4,7 @@ const Introduction = ({ eventCenterName = "[Your Event Center Name]" }) => {
   return (
     <section className="w-full py-16 px-4 bg-gray-50 text-center">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 font-playfair">
           Your Vision, Our Venue, Unforgettable Moments
         </h2>
         <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
