@@ -23,7 +23,7 @@ const page = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center">
         <Image
-          src="/images/wedding-cover.jpg"
+          src="/images/wedding-main.jpg"
           alt="Wedding at our event center"
           fill
           priority
