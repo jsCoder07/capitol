@@ -35,7 +35,7 @@ export default function Home() {
         
         {/* ... more content */}
 
-        <ScrollFadeIn> </ScrollFadeIn> 
+      
         <UpcomingEvents/>
       </main>
 
