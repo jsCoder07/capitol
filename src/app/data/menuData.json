@@ -41,21 +41,5 @@
       "title": "Contact Us",
       "link": "/contact"
     },
-    {
-      "id": "blog",
-      "title": "Blog",
-      "link": "/blog",
-      "submenu": [
-        {
-          "id": "articles",
-          "title": "Articles",
-          "link": "/blog/articles"
-        },
-        {
-          "id": "news",
-          "title": "News",
-          "link": "/blog/news"
-        }
-      ]
-    }
+    
   ]
