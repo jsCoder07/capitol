@@ -9,10 +9,10 @@ import UpcomingEvents from "../components/sections/UpcomingEvents";
 const images = [
   { src: "/images/hero-venue-exterior.jpg", alt: "Our Location" },
   { src: "/images/hero-conference.jpg", alt: "Conference" },
-  { src: "/images/social-main.jpg", alt: "Birthday Party" },
+  { src: "/images/social-main.jpg", alt: "Conference Setup" },
   { src: "/images/corporate.jpg", alt: "Corporate Event" },
   { src: "/images/wedding-main.jpg", alt: "Engagement Party" },
-  { src: "/images/corporate2.jpg", alt: "Conference Setup" },
+  { src: "/images/corporate2.jpg", alt: "Birthday Party" },
 ];
 const Gallery = () => {
     const [selectedIndex, setSelectedIndex] = useState(null);
@@ -113,5 +113,6 @@ const Gallery = () => {
     </div>
   )
 }
+
 
 export default Gallery
