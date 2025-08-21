@@ -38,7 +38,8 @@ const Contact = () => {
             <ul className="space-y-4">
               <li>
                 <span className="font-semibold">Address:</span>
-                Capitol Road Agege
+            68, Capitol Road, Carwash bus stop Oniwaya Agege Lagos.
+
               </li>
               <li>
                 <span className="font-semibold">Phone:</span>
@@ -119,3 +120,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
