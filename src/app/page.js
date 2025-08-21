@@ -36,9 +36,9 @@ export default function Home() {
         {/* ... more content */}
 
       
-        <UpcomingEvents/>
+        
       </main>
-
+<UpcomingEvents/>
       <footer className="bg-gray-800 text-white text-center p-4">
         &copy; 2025 Capitol City Hall Nigeria. All rights reserved.
       </footer>
